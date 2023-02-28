@@ -1,0 +1,26 @@
+
+["?displays"]
+	dragon_spawn_countdown_x = 1
+	dragon_spawn_countdown_y = 5
+	dragon_spawn_countdown = true
+
+["?features"]
+	chat_copy = true
+	rare_drop_notifier = true
+	rare_drop_notification = true
+	no_summoning_eye_notification = true
+	good_dragon_notifier = true
+
+["?trackers"]
+	eye_drop_display = true
+	eye_drop_display_x = 1
+	eye_drop_display_y = 20
+
+["?visual"]
+	fps_counter = true
+	ping_display = true
+	fps_counter_y = 3
+	fps_counter_x = 1
+	ping_display_y = 1
+	ping_display_x = 1
+
