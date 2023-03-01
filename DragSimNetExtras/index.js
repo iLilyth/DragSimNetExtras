@@ -5,7 +5,7 @@ import Settings from "../DragSimNetExtras/config.js"
 register("command", Settings.openGUI).setName("DragSimNetExtras").setAliases(["DSNE"]);
 
 //checks
-import "./checks/onServer" 
+import "./checks/onServer" //by iLilyth
 
 //features
 import "./features/copyChat" //by iLilyth
@@ -15,8 +15,9 @@ import "./features/pingCounter" //by iLilyth
 import "./Features/dragonDrops" //by iLilyth
 import "./Features/noSummoningEyeNoti" //by iLilyth
 import "./Features/respawnTimer" //by iLilyth
-import "./Trackers/eyesDropped" //by iLilyth
 import "./Features/divineNotifier" //by iLilyth
-
-
 import "./Features/noEndermanTeleport" //by Intel
+
+//trackers
+import "./Trackers/eyesPlaced" //by iLilyth
+import "./Trackers/eyesDropped" //by iLilyth

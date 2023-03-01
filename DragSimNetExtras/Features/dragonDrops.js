@@ -3,7 +3,7 @@ import {dragSim} from '../Checks/onServer.js'
 
 let itemNumber = 0
 let dragonDown = false
-const itemList = ["Shadow Assassin", "Eagle Wing", "Necron's", "Giant's Sword", "Infernal Crimson", "Warden Helmet", "Terminator", "Divine Helmet", "Book of Seidr", "Platinum Egg", "Hyperion", "Scylla", "@)$&#^ #*$(@)"]
+const itemList = ["Booster Bread", "Shadow Assassin", "Eagle Wing", "Necron's", "Giant's Sword", "Infernal Crimson", "Warden Helmet", "Terminator", "Divine Helmet", "Book of Seidr", "Platinum Egg", "Hyperion", "Scylla", "@)$&#^ #*$(@)"]
 
 register("chat", () => {
     dragonDown = true

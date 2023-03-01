@@ -59,6 +59,13 @@ import {
         })
         DragNotifier = true;
 
+        @SwitchProperty({
+            name: "Format Damage Numbers",
+            description: "Adds commas to damage numbers (might reduce framerate idk)",
+            category: "?Visual",
+        })
+        FormatDmg = true;
+
         @SliderProperty({
             name: "Dragon Spawn Countdown X",
             description: "",
@@ -75,7 +82,7 @@ import {
             min: 0,
             max: 100
         })
-        DragonSpawnTimerY = 1;
+        DragonSpawnTimerY = 18;
 
 
 
@@ -102,7 +109,35 @@ import {
             min: 0,
             max: 100
         })
-        eyeDropDisplayY = 1;
+        eyeDropDisplayY = 20;
+
+
+
+
+        @SwitchProperty({
+            name: "Eyes Placed Display",
+            description: "Shows your eye drop counts",
+            category: "?Trackers",
+        })
+        eyesPlaced = true;
+
+        @SliderProperty({
+            name: "Eyes Placed Display X",
+            description: "",
+            category: "?Trackers",
+            min: 0,
+            max: 100
+        })
+        eyesPlacedX = 1;
+
+        @SliderProperty({
+            name: "Eyes Placed Display Y",
+            description: "",
+            category: "?Trackers",
+            min: 0,
+            max: 100
+        })
+        eyesPlacedY = 15;
 
 
 

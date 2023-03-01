@@ -20,7 +20,7 @@ function nFormatter(num, digits) {
 
 register("renderEntity", (entity, pos, partialticks, event) => {
     if (!dragSim() || !Settings.FormatDmg) return
-    if (entity.getName().removeFormatting().includes("✧")) return cancel(event)
+    if (entity.getName().removeFormatting().includes("✰")) return cancel(event)
     if (entity.getName().match(/[a-z]/) || entity.getName().includes("_")) return
     if (entity.getName().startsWith("§7")) return cancel(event)
     
@@ -28,7 +28,7 @@ register("renderEntity", (entity, pos, partialticks, event) => {
 
 register("renderEntity", (entity) => {
     if (!dragSim() || !Settings.FormatDmg) return
-    if (entity.getName().includes("✧")) {
+    if (entity.getName().includes("✰")) {
         let nametag = entity.getName().removeFormatting()
         let length = nametag.length
         nametag = entity.getName().removeFormatting().slice(1, (length - 1))
@@ -37,7 +37,7 @@ register("renderEntity", (entity) => {
         let entityX = entity.getLastX()
         let entityY = entity.getLastY()
         let entityZ = entity.getLastZ()
-        Tessellator.drawString("✧"+ nameTagFormatted +"✧", entityX, entityY, entityZ, Renderer.WHITE, true, 0.03, false)
+        Tessellator.drawString("✰"+ nameTagFormatted +"✰", entityX, entityY, entityZ, Renderer.WHITE, true, 0.03, false)
     }
     if (entity.getName().match(/[a-z]/) || entity.getName().includes("_")) return
     if (entity.getName().startsWith("§7")) {

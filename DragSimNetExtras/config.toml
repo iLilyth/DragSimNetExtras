@@ -1,7 +1,7 @@
 
 ["?displays"]
 	dragon_spawn_countdown_x = 1
-	dragon_spawn_countdown_y = 5
+	dragon_spawn_countdown_y = 18
 	dragon_spawn_countdown = true
 
 ["?features"]
@@ -12,6 +12,9 @@
 	good_dragon_notifier = true
 
 ["?trackers"]
+	eyes_placed_display_y = 16
+	eyes_placed_display = true
+	eyes_placed_display_x = 1
 	eye_drop_display = true
 	eye_drop_display_x = 1
 	eye_drop_display_y = 20
@@ -21,6 +24,7 @@
 	ping_display = true
 	fps_counter_y = 3
 	fps_counter_x = 1
+	format_damage_numbers = true
 	ping_display_y = 1
 	ping_display_x = 1
 
